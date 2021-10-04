@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ephesis&family=Gluten:wght@100;400;600&family=Pacifico&family=Roboto:wght@500&display=swap");
+/* .headline {
+  font-family: "Abril Fatface", cursive;
+  font-family: "Ephesis", cursive;
+  font-family: "Gluten", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto", sans-serif;
+} */
+.a {
+  font-size: 20px;
+  color: black;
+}
+.a:hover {
+  color: darkblue;
+}
+.header-container {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(128, 128, 128, 0.65),
+    white
+  );
+  border-bottom: 1px solid rgba(128, 128, 128, 0.109);
+}

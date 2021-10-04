@@ -1,0 +1,12 @@
+.carousel-div {
+  margin-left: 30%;
+}
+/* .home-div-container {
+  background-color: rgba(128, 128, 128, 0.418);
+} */
+.details {
+  margin-right: 30%;
+}
+.home-div-container {
+  background-image: linear-gradient(to bottom, white, lightgray);
+}

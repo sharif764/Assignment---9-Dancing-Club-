@@ -1,0 +1,11 @@
+.card-img-top {
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+}
+.col {
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 0 20px;
+}
