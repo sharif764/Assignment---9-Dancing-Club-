@@ -3,7 +3,10 @@ import React from 'react';
 const ContactUs = () => {
     return (
         <div>
-            <h1>This is contact us</h1>
+            <h1>Contact Us</h1>
+            <div>
+                
+            </div>
         </div>
     );
 };
