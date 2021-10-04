@@ -12,6 +12,8 @@ const Cart = (props) => {
                     <div className="card-body">
                         <h5 className="card-title">{danceType}</h5>
                         <p className="card-text">{details}</p>
+                        <h3>Class Time :{classTime}</h3>
+                        <h3>Course Fee :{courseFee}</h3>
                     </div>
                     <div>
 
