@@ -1,7 +1,7 @@
 import React from 'react';
 import useDataForServices from '../../hook/useDataForServices';
 import ServicesCart from '../ServicesCart/ServicesCart';
-
+import './Services.css';
 const Services = () => {
     const [datas] = useDataForServices();
     console.log(datas);

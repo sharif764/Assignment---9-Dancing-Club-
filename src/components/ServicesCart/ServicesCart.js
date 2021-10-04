@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './ServicesCart.css';
 const ServicesCart = (props) => {
     const data = props.data;
     const { img, classTime, courseDuration, courseFee, danceType, details, requirements } = data;
@@ -16,10 +16,12 @@ const ServicesCart = (props) => {
 
                             <p class="card-text">{details}</p>
                             <br />
-                            <h5>Class Time: {classTime}</h5>
-                            <h5>Course Duration: {courseDuration}</h5>
-                            <h5>Requirements : {requirements}</h5>
-                            <h5>Course Fee : {courseFee}</h5>
+                            <div className="information">
+                                <h5>Class Time: {classTime}</h5>
+                                <h5>Course Duration: {courseDuration}</h5>
+                                <h5>Requirements : {requirements}</h5>
+                                <h5>Course Fee : {courseFee}</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
