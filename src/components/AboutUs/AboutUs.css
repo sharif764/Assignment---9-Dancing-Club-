@@ -1,0 +1,21 @@
+.passage {
+  border: 2px solid gray;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.about-div {
+  margin-top: 50px;
+}
+.passage-container {
+  margin-top: 100px;
+}
+.Reviewpassage {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.Reviewpassage-div {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
